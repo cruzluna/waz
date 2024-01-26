@@ -7,11 +7,10 @@ export default function Markdown() {
       <div class="flex items-center justify-center">
         <textarea
           class="border border-black h-5/6 w-3/4"
-          onChange={(event) => setText(event.target.value)}
+          onInput={(event) => setText(event.target.value)}
         />
       </div>
-
-      <div>{text()}</div>
+      <div class="flex items-center justify-center p-2">{text()}</div>
     </main>
   );
 }
