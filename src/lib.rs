@@ -11,3 +11,9 @@ extern "C" {
 pub fn greet() {
     alert("Hello, waz!");
 }
+
+#[wasm_bindgen]
+pub fn markdown_to_html() -> String {
+    println!("Printing: {}", markdown::to_html("## Hello, *world*!"));
+    markdown::to_html("## Hello, *world*!")
+}
