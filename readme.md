@@ -1,12 +1,1 @@
-# Requirments
-
-1. Rust Wasm
-
-- [x] Set up Rust toolchain
-- [ ] Get wasm stuff downloaded
-- [ ] Go through Rust Wasm tut
-
-2. Add Client
-
-- [ ] Set up Solid.js
-- [ ] Import a rust function into client and it works
+![image](https://github.com/cruzluna/waz/assets/73450306/0a5105cc-ca29-43e8-a6da-598e67a474f2)
