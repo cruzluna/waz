@@ -13,7 +13,6 @@ pub fn greet() {
 }
 
 #[wasm_bindgen]
-pub fn markdown_to_html() -> String {
-    println!("Printing: {}", markdown::to_html("## Hello, *world*!"));
-    markdown::to_html("## Hello, *world*!")
+pub fn markdown_to_html(markdown_str: String) -> String {
+    markdown::to_html(&markdown_str)
 }
